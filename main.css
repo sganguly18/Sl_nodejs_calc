@@ -1,0 +1,67 @@
+body {
+    font-family: Calibri, Noto Sans, DejaVu Sans;
+    font-size: 14px;
+}
+
+.fg {
+    max-width: 800px;
+    margin: auto;
+    background: #EFEFEF;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+
+.calc {
+    background-color: #E3E2DE;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.calc-disp {
+    overflow-x: hidden;
+    padding: 5px 5px 5px 5px;
+    border:1px solid #727272;
+    border-radius: 2px;
+    min-height: 20px;
+    max-width: 100%;
+    background: #FFFEF3;
+    margin: 2px 2px 20px 2px;
+}
+
+.button {
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    background-color: #FF1B33;
+    border: none;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #FF8D98;
+}
+
+.button:active {
+    background-color: #B9001D;
+}
+
+.res {
+    min-width: 30px;
+    min-height: 30px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    background-color: #535353;
+    border: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
